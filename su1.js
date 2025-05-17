@@ -12,4 +12,13 @@ function mainSu(){
     }
 }
 
+function mainSu1(){
+    if(num%2 == 0){
+        console.log("number is even")
+    }else{
+        console.log("number is odd")
+    }
+}
+
 mainSu(10);
+mainSu1(10);
